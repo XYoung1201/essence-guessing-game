@@ -1,0 +1,13 @@
+interface:
+  display_name: Essence Guessing Game
+  short_description: Essence-first guessing and definition reconstruction game
+  brand_color: '#4a3f8f'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
