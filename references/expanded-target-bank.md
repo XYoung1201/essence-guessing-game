@@ -1,303 +1,164 @@
-# Target Bank
+# 扩展目标库与私下目标卡(expanded-target-bank)
 
-Use this file to choose targets or design similar ones. Do not expose the bank during a live round. Vary category and difficulty across rounds.
+target-bank.md 的续仓。两部分:**续货词单**(七范畴,与种子库同构,标 ☆ 的附内核切入点,部分附配族提示);**私下目标卡**(开局前给自己写的小抄)的栏目模板、一张填例与纪律。选目标仍走 target-bank.md 头部的三问:有层可剥、有机可讲、有线可舍。
 
-## Selection principles
+---
 
-Choose targets that support both:
+## 一、续货词单
 
-1. essence-first clueing;
-2. meaningful erasure substitution.
+### 具体名词
+模具、脚手架、保险丝、疤、回声、漏斗、拉链、把手、栅栏、缓冲垫。
+- 保险丝 ☆ 内核:"一个故意造得比谁都脆弱的零件——它先死,别人才能活。"(填例见第三节)
+- 疤 ☆ 内核:"伤口走后留下的看门人:伤已不在,'曾经伤过'被永久写在了那里。"(近邻:痕、记忆——宜逼分茎)
+- 回声 ☆ 内核:"你自己的声音被世界退回来——晚了一步,于是听起来像别人的。"
+- 模具 ☆ 内核:"一个以'空'为产品的东西:它的里面,是别人的外面。"
+- 脚手架 ☆ 内核:"一个注定要被拆掉的结构——它的成功,以自己的消失为标志。"
 
-Prefer targets with close neighbors, hidden assumptions, or rich semantic compression. Avoid targets that depend on obscure facts, current news, private biography, or memorized trivia.
+### 抽象名词
+分寸、仪式感、默契、押金、底线、余地、口碑、台阶(抽象义)。
+- 默契 ☆ 内核:"一份从未说出口、双方却都在执行的约定。"〔宜配**独居种**(从无他人,何来共执)或**瞬忘者**(约定靠什么存续)〕
+- 分寸 ☆ 内核:"一条没人画出来、越过了却人人都看得见的线。"
+- 押金 ☆ 内核:"一笔暂时扣在别人手里的'我会守约'。"〔宜配**蜂心群**:群心无"彼此不信",抵押最难讲〕
+- 仪式感 ☆ 内核:"给一个本可随便完成的动作,故意加上不必要的郑重。"
 
-## Training map by category
+### 动词
+敷衍、排队、犹豫、试探、将就、辜负、挽留。
+- 排队 ☆ 内核:"把'谁先到'升格成'谁先得'的一种身体写法。"〔宜配**平给邦**:不患寡而患不均之地,队列何用〕
+- 敷衍 ☆ 内核:"做了那个动作,却抽走了动作里的'真'——形完成了,实没出席。"
+- 犹豫 ☆ 内核:"两个'要'在同一具身体里抢方向盘、谁也没赢的那段悬置。"(近邻:等待、平衡——种子库旧客,宜逼分茎)
 
-### Concrete nouns: affordance and relation
+### 形容词
+腻、委屈、生涩、烫手(比喻义)、敞亮、轴。
+- 腻 ☆ 内核:"喜欢被重复磨穿之后,翻出来的那个反面。"(近邻:厌、烦)
+- 委屈 ☆ 内核:"账算给自己听是清白的,判决却来自别处——那笔对不上的差额。"〔宜配**独利者**:账上没有'别处的判决'这一栏〕
 
-Concrete targets teach that objects are not defined only by material or appearance. They are often defined by what they make possible.
+### 副词
+偏偏、居然、反而、白白地、姑且。
+- 居然 ☆ 内核:"我宣布:世界刚刚越过了说话人的预料线。"〔宜配**全知岛**:无意外之地,我无处落脚〕
+- 偏偏 ☆ 内核:"在所有可能里,命中了最不该的那一个——我替说话人把这笔怨记进句子。"(自带立场的副词,顺手演示:走私不只藏在名词里)
+- 反而 ☆ 内核:"方向盘朝东打,车却向西去——我标记因果的倒戈。"
 
-Good targets:
+### 关系 / 角色词
+对手、见证人、替罪羊、靠山、内应。
+- 对手 ☆ 内核:"我最不希望他消失的敌人——他若走了,我的'赢'也跟着没了。"〔宜配**独居种**〕
+- 见证人 ☆ 内核:"什么也没做、只因'在场看见'就被事件抓住的一个位置。"〔宜配**独居种**:无人在场之地,事件少了一种存在方式〕
+- 替罪羊 ☆ 内核:"一个被指定来'变成原因'的无辜者——罪需要一个住址。"
 
-- bridge: spanning separation to enable passage.
-- mirror: returning appearance to a viewer through reflection.
-- door: controlled opening between separated spaces.
-- seed: compact future organism under conditions of activation.
-- container: bounded interior that holds and separates.
-- map: selective spatial representation for orientation.
-- clock: public externalization of time measurement.
-- key: shaped permission or mechanism for access.
-- knife: concentrated edge that separates by cutting.
-- window: boundary that permits seeing without full crossing.
-- mask: altered face or presented surface that mediates identity.
-- anchor: weight or fixing device that resists drift.
-- ladder: repeatable height increments for ascent or descent.
-- fence: visible boundary that regulates crossing.
-- thread: thin continuity that links, binds, or guides.
+### 虚构 / 文化建构
+姓名、生日、纪录、级别、彩头。
+- 姓名 ☆ 内核:"一个挂在你身上、却主要由别人使用的把手。"〔宜配**无我潮**:无'我'之处,把手安在哪〕
+- 生日 ☆ 内核:"一年一度,把'你来过'重新公证一次的日子。"〔宜配**永生缓老者**:不数年岁者,何须刻度〕
+- 纪录 ☆ 内核:"一道由'至今无人越过'守着的临时王座。"
 
-### Abstract nouns: boundaries and hidden frames
+---
 
-Abstract targets teach how concepts carve reality.
+## 二、无名现象续种(补词局用)
 
-Good targets:
+接 variant-rounds.md 补词局的十三粒种子,再续五粒。只描述,不命名;玩法照旧:先把现象的本质线拆稳,再铸名。
 
-- boundary: a distinction that separates while making relation possible.
-- promise: self-binding commitment made intelligible to another.
-- risk: possible loss under uncertainty attached to action or exposure.
-- evidence: something that shifts rational belief toward or against a claim.
-- trust: willingness to become vulnerable to another's reliability.
-- ownership: recognized control or claim over use, transfer, or exclusion.
-- identity: continuity or sameness across change and perspective.
-- hierarchy: ordered asymmetry of rank, authority, or priority.
-- rhythm: patterned recurrence that organizes expectation.
-- debt: present obligation created by past receiving or borrowing.
-- reputation: socially stored expectation about a person or entity.
-- ritual: repeated symbolic action that stabilizes shared meaning.
-- rule: general constraint that guides particular cases.
-- standard: reference point used to judge variation.
-- exception: a case permitted to stand outside a rule without destroying it.
-- consent: permission that changes the moral or social status of an action.
-- privacy: controlled access to self, information, or space.
-- responsibility: attribution of answerability for action, role, or consequence.
-- freedom: capacity or status of not being constrained in a relevant sense.
-- fairness: norm of justified treatment under a comparison.
+1. 打了很长一段话,一段段删掉,最后只发出一个"嗯"——那整段被吞回去的话。
+2. 单曲循环到第几十遍,忽然听见一件从未注意过的伴奏乐器浮出来的那一刻。
+3. 假期最后一晚,人还在玩,心已经提前在过明天——这种对尚未到来之日的预支疲惫。
+4. 密码改过之后,手指仍在键盘上自行敲出旧密码的那几秒。
+5. 给人指完路,自己反而对那条走了多年的路突然不确定起来。
 
-### Verbs: transformation and agency
+---
 
-Verbs teach process, causality, temporality, and intention.
+## 三、私下目标卡
 
-Good targets:
+开局前两三分钟,给自己写的小抄。**六栏**:
 
-- measure: compare something against a standard to make magnitude communicable.
-- remember: bring a past state into present availability.
-- forgive: release a claim of grievance without erasing the wrong.
-- negotiate: adjust claims through reciprocal communication.
-- classify: place particulars into kinds by selected features.
-- translate: preserve meaning across different sign systems with loss and choice.
-- hide: control another's access to what exists or is known.
-- reveal: make previously inaccessible information available.
-- wait: remain in time oriented toward a not-yet event.
-- repair: restore function or integrity after damage.
-- imitate: reproduce form or action from a model.
-- compare: hold two things together under a shared axis of judgment.
-- choose: reduce multiple possibilities to one committed path.
-- pretend: act under an acknowledged gap between presentation and reality.
-- obey: align action with an external command, rule, or authority.
+| 栏 | 写什么 |
+|---|---|
+| ① 目标 | 一个词 |
+| ② 本性句母版 | 第一条线索的底稿,刻意保留多义(列出它罩得住的三四个邻居) |
+| ③ 五层要点 | 由内向外各一短语:内核 / 承重种差(并注明它杀谁)/ 结构 / 情境 / 最易混的邻居 |
+| ④ 配族与删词 | 递给哪一族(或临场自造什么族);抹除时一并没收哪些近义词 |
+| ⑤ 预判三岔 | 玩家最可能的三条岔路:各写一个病名 + 一句居民措辞(措辞模板见 definition-tools.md 第五节) |
+| ⑥ 收束线 | 接受判词该含哪几条机制;预备一个封印一问。**只写判准,不写答案原文** |
 
-### Adjectives: relational qualities and thresholds
+### 填例 · 保险丝
 
-Adjectives teach that properties are often relational, graded, and context-dependent.
-
-Good targets:
-
-- fragile: easily losing integrity under stress.
-- transparent: allowing what lies behind or within to be seen or understood.
-- reversible: able to return without essential loss.
-- efficient: achieving an end with reduced waste of resources.
-- sacred: set apart by reverence, prohibition, or ultimate value.
-- approximate: close enough for a purpose without exact identity.
-- ambiguous: sustaining more than one plausible interpretation.
-- artificial: made through intention rather than arising unaided.
-- loyal: maintaining allegiance across pressure or temptation.
-- obsolete: displaced by changed conditions of use.
-- precise: having boundaries fine enough to reduce unwanted ambiguity.
-- vulnerable: open to being harmed because of exposure or dependence.
-- legitimate: accepted as rightfully authorized under a norm.
-- random: not predictable by the pattern relevant to the observer.
-
-### Adverbs: mode, rhythm, and stance
-
-Adverbs train sensitivity to how actions unfold.
-
-Good targets:
-
-- gradually: by small changes distributed over time.
-- deliberately: with conscious intention rather than accident or impulse.
-- secretly: with controlled invisibility to relevant observers.
-- reluctantly: while acting against preference or desire.
-- randomly: without a pattern usable for prediction in the relevant frame.
-- publicly: before an open or recognized audience.
-- silently: without producing communicative sound.
-- temporarily: for a limited duration, not as a final state.
-- repeatedly: through multiple occurrences of the same pattern.
-- indirectly: by reaching an effect through mediation rather than direct contact.
-
-### Relations and roles: social positioning
-
-Good targets:
-
-- teacher: one who organizes another's learning.
-- witness: one whose presence can attest that something occurred.
-- guest: one temporarily received into another's space or order.
-- enemy: one positioned as a threat or opponent.
-- neighbor: one nearby enough for relation without necessarily being intimate.
-- owner: one recognized as having claim or control.
-- stranger: one present without shared identity or known relation.
-- mediator: one who helps opposed sides communicate or settle difference.
-- successor: one who comes after another in a role or sequence.
-
-### Institutions and social constructs
-
-Good targets:
-
-- contract: mutually recognized binding arrangement of obligations.
-- currency: socially accepted transferable measure of exchange value.
-- law: institutionalized rule backed by recognized authority.
-- school: organized environment for structured learning and certification.
-- market: system where exchange and valuation occur through participants.
-- border: politically recognized spatial boundary regulating belonging and movement.
-- citizenship: membership status linking person and political community.
-- marriage: socially recognized bond reorganizing obligations, kinship, and status.
-- game: rule-governed activity whose meaning arises inside voluntary constraints.
-- brand: identity-sign that compresses expectation, trust, status, and distinction.
-
-### Fictional, symbolic, and imaginary targets
-
-Good targets:
-
-- avatar: represented self acting in a mediated world.
-- monster: figure of threat that gives form to fear or transgression.
-- spell: symbolic act imagined to alter reality through hidden power.
-- portal: passage between incompatible spaces or worlds.
-- prophecy: future statement that reorganizes present action.
-- myth: narrative that explains or legitimizes a worldview.
-
-### Sensation and primitive experience
-
-Use these for primitive mode or definition-limit lessons.
-
-Good targets:
-
-- red: a visual quality calibrated by examples rather than full definition.
-- bitter: a taste quality often learned by direct encounter.
-- pain: aversive felt experience indicating harm or disturbance.
-- warmth: felt thermal quality relative to body and context.
-- rhythm: patterned temporal feel that can be counted but also embodied.
-- awkward: social discomfort from misaligned expectations.
-
-## Example private target cards
-
-### Target: mirror
-
-```markdown
-Category: concrete noun
-Difficulty: gentle/standard
-Genus: object or surface relation
-Differentia: returns an appearance to a viewer by reflection rather than representation or memory
-Essential function: lets a subject become visually available to itself or redirects visible form
-Nearby traps: window, portrait, camera, water, screen
-Forbidden leaks: reflect, reflection, glass, face, bathroom, selfie
-Erasure challenge: how to describe self-seeing without naming the object
-Substitution goal: “a surface arranged so that visible form is sent back to the one looking”
+```
+① 目标:保险丝
+② 本性句母版:"一个故意造得比谁都脆弱的零件——它先死,别人才能活。"
+   (罩得住:保险丝、汽车溃缩区、壁虎尾巴、棋局里的弃子)
+③ 五层要点:
+   内核:以自毁换全局之存
+   种差:脆弱是设计出来的,且有精确门槛——过某量即断
+        (杀壁虎尾巴:天然非设计;杀弃子:无定量门槛)
+   结构:串在通路正中,断己即断路
+   情境:过量来袭在先,断在一瞬
+   易混邻:开关(可逆、听命于意志)/ 堤坝(挡而不自毁)
+④ 配族与删词:临场自造"不熄族"——其器物只会越用越旺,从无"过载烧毁"
+   一事;没收:保险丝、熔断、跳闸、烧断。
+⑤ 预判三岔:
+   岔一 "保护电路的东西" → 后果当定义 + 黑盒。
+       居民:"'保护'?它做了什么动作?给我能跑的齿轮。"
+   岔二 "为了不让别的零件烧坏" → 目的论黑盒。
+       居民:"它怎么'知道'别人要坏?"(逼出:它无知无觉,
+       只是全链上最先到门槛的那一段)
+   岔三 押"玻璃管、细金属丝" → 偶性当本质。
+       居民:"换成陶瓷壳呢?"(陶瓷管、空气开关同理)
+⑥ 收束线:接受版须含——串联在通路上 / 全链中门槛最低 / 过门槛即自断 /
+   断己即断路。封印一问:"把那段窄丝换成门槛相同的另一段,哪里先熔?"
+   (期待居民自己推出:仍是门槛最低处——'最脆'不是一个位置,是一个名次。)
 ```
 
-First clue idea: “它让一个原本只能被别人看见的外观，回到拥有它的人面前。”
+### 三条纪律
 
-### Target: promise
+1. **卡写十分钟,弃卡一秒钟。**玩家一走出预判,立刻跟着玩家走;卡作废不可惜,可惜的是攥着卡把活人拽回纸上。
+2. **只预判三岔,不预写剧本。**岔是备的伞,不是定的轨;第四条岔出现,临场接。
+3. **绝不写"期望的最终解释"。**写了就会钓(犯 protocol 2.4 反诱导铁律)。收束线只写判准与封印一问。
 
-```markdown
-Category: abstract noun / speech act
-Difficulty: standard
-Genus: commitment
-Differentia: voluntarily binds future action before another through communicable assurance
-Essential function: turns future behavior into a present claim others can rely on
-Nearby traps: contract, plan, oath, prediction, guarantee
-Forbidden leaks: commitment, swear, word, agreement
-Erasure challenge: preserving self-binding plus other-facing reliance
-Substitution goal: “向他人公开承担未来行动的自我约束，使对方可以据此期待”
-```
+### 自造目标三禁区
 
-First clue idea: “它把还没发生的行动提前放进现在，让别人可以把你的未来当作某种依据。”
+- **需百科知识才玩得动的**(熵、区块链之类)——比的成了见识,不是思维;除非玩家正是行内人。
+- **纯私人经验词**(只有你们才懂的梗)——没有公共外延,边缘案例无从出题。
+- **近五局的同族近邻**——刚玩过"等待"别接"悬停";轮换纪律见 growth-and-sessions.md 与 version2-protocol-notes.md 第三节。
 
-### Target: measure
+---
 
-```markdown
-Category: verb
-Difficulty: standard
-Genus: comparison action
-Differentia: compares an unknown magnitude against a standard so it can be communicated or judged
-Essential function: makes quantity portable across minds and situations
-Nearby traps: count, compare, evaluate, observe, calculate
-Forbidden leaks: ruler, scale, unit, quantify
-Erasure challenge: saying how magnitude becomes shareable without naming measurement
-Substitution goal: “把某个量同一个共同标准相对照，使其大小能被说出、比较和复查”
-```
+## 四、二代英文目标库精编(四代译并)
 
-First clue idea: “它让一个只在眼前模糊存在的多少，变成可以离开现场、被别人复查的东西。”
+二代英文目标库里每个词都附了一句"它的本性",是写本性句的好底稿。下面按范畴精选、译成中文;**每句只是主持人的底稿,不可原样念给玩家**(那会太接近定义)。
 
-### Target: fragile
+**具体名词(功能与关系,不是材质与外观)**:门——隔开的两处之间可控的开口;种子——在条件满足时会被激活的、压缩的未来生命;容器——圈出一个内部来盛放并隔开;地图——为了定向而有选择地再现空间;钥匙——被做成某种形状的"许可";窗——让人看过去却不必走过去的边界;面具——居中调停身份的一张被呈现的脸;梯子——可重复的高度增量;线——把东西连起来、绑起来或引过去的细长连续。
 
-```markdown
-Category: adjective
-Difficulty: hard
-Genus: relational quality
-Differentia: low tolerance to stress before loss of integrity or function
-Essential function: marks a mismatch between structure and possible pressure
-Nearby traps: weak, delicate, soft, unstable, vulnerable
-Forbidden leaks: break, shatter, glass, handle carefully
-Erasure challenge: preserving stress-threshold relation
-Substitution goal: “在不大的外力或扰动下就容易失去完整性或功能的状态”
-```
+**抽象名词(切分与隐藏的框架)**:风险——附着在行动或暴露上的、不确定中的可能损失;证据——让理性信念朝某个方向挪动的东西;身份——跨越变化与视角的同一;等级——秩序化的不对称;节奏——组织期待的模式化重复;名声——社会替某人储存的期待;规则——指导个案的一般约束;例外——站在规则之外却不毁掉规则的个案;同意——改变一个行为的道德或社会地位的许可。
 
-First clue idea: “它不是单纯弱，而是某种东西和外界压力之间的余量太小。”
+**动词(转变与施事)**:测量——拿未知的量去对一个共同标准,使大小可以被说出、比较和复查;原谅——放下一项怨的索求,却不抹去那件错;协商——通过往复沟通调整各方的要求;分类——按选定的特征把个体放进种类;修复——在损坏之后恢复功能或完整;假装——在呈现与真实之间有一道被承认的缝,并在其中行动;服从——让行动对齐一个外部的命令、规则或权威。
 
-### Target: secretly
+**形容词(关系性的、有阈值的、随语境变化的)**:脆弱——在不大的压力下就失去完整;可逆——能回到原状而无本质损失;神圣——因敬畏、禁忌或终极价值而被分开;近似——对某个目的而言足够接近、却不全同;模糊——同时撑得住不止一种合理解读;过时——被变化了的使用条件挤下去;正当——在某种规范下被承认为有权如此;随机——对观察者而言没有可用于预测的模式。
 
-```markdown
-Category: adverb
-Difficulty: hard
-Genus: manner of action
-Differentia: action is performed while relevant observers are intentionally denied access to knowing it
-Essential function: controls visibility of an action relative to those for whom knowing would matter
-Nearby traps: quietly, privately, invisibly, indirectly, silently
-Forbidden leaks: secret, hidden, covert, conceal
-Erasure challenge: preserving action plus controlled ignorance of relevant others
-Substitution goal: “以不让应当或可能知道的人得知的方式去做”
-```
+**副词(方式、节奏、姿态)**:逐渐——变化被分摊成许多小步;故意——带着清醒意图而非意外或冲动;勉强——一边做一边违背自己的偏好;公开——在一群开放或公认的观众面前;暂时——有期限、不是最终状态;间接——经由中介而非直接接触达到效果。
 
-First clue idea: “它描述的不是动作本身，而是动作和旁观者知识之间被人为切断的关系。”
+**关系与角色**:老师——组织另一个人的学习的人;客人——被临时接纳进另一个人的空间或秩序的人;陌生人——在场、却没有共享身份或已知关系的人;调停者——帮助对立双方沟通或解决分歧的人;继任者——在某一角色或序列里接在别人之后的人。
 
-### Target: fairness
+**制度与社会建构**:合同——双方互认的、有约束力的义务安排;法律——由公认权威背书的制度化规则;市场——交换与估值经由参与者发生的系统;婚姻——重组义务、亲属与身份的社会认可纽带;游戏——意义产生于自愿接受的约束之中的、受规则支配的活动;品牌——压缩了期待、信任、身份与区隔的标识。
 
-```markdown
-Category: contested abstract noun
-Difficulty: philosophical/adversarial
-Genus: norm of treatment
-Differentia: justified distribution or judgment under a comparison among relevant parties
-Essential function: makes unequal treatment answerable to reasons
-Nearby traps: equality, justice, kindness, legality, neutrality
-Forbidden leaks: fair, equal, just, impartial
-Erasure challenge: no single neutral substitute; must choose equality, desert, need, procedure, or outcome
-Substitution goal: multiple stance-aware substitutes
-```
+**虚构、象征与想象**:化身——在中介世界里行动的被再现的自我;怪物——给恐惧或越界一个形状的形象;咒语——被想象成能借隐藏力量改变现实的符号行为;传送门——不相容的空间之间的通道;预言——重组当下行动的关于未来的陈述;神话——解释或正当化一种世界观的叙事。
 
-First clue idea: “它出现时，问题不只是某人得到了什么，而是为什么他得到这些而别人得到那些。”
+**感受与原初经验(原初模式与指物极限专用)**:红、苦、痛、温暖、身体里感到的节奏、尴尬(期待错位带来的社交不适)。
 
-## Clue style variants
+## 五、二代私卡六例(四代改写为本性句速查)
 
-### Direct style
+二代的六张英文私卡,四代把最有用的部分——属、种差、易混邻居、本性句——压成速查。写新卡时可照第三节六栏扩写。
 
-Use clearer definitions and earlier contexts. Best when the user wants language training with less frustration.
+| 目标 | 属 | 种差 | 易混邻居 | 本性句底稿 |
+|---|---|---|---|---|
+| 镜子 | 一种表面关系 | 以反射(而非再现或记忆)把外观送回观看者 | 窗、肖像、相机、水面、屏幕 | "它让一个原本只能被别人看见的外观,回到拥有它的人面前。" |
+| 承诺 | 一种自我约束(言语行为) | 在他人面前自愿约束自己未来的行动,使对方可以据此期待 | 合同、计划、誓言、预测、担保 | "它把还没发生的行动提前放进现在,让别人可以把你的未来当作某种依据。" |
+| 测量 | 一种对照动作 | 把未知的量与共同标准相对照,使其大小可以被说出与复查 | 计数、比较、评估、观察、计算 | "它让一个只在眼前模糊存在的多少,变成可以离开现场、被别人复查的东西。" |
+| 脆弱 | 一种关系性质 | 承受压力的余量很小,稍受扰动即失去完整或功能 | 弱、娇嫩、软、不稳、易受伤 | "它不是单纯弱,而是某种东西和外界压力之间的余量太小。" |
+| 偷偷地 | 一种行动方式 | 让本该或可能知道的人被有意挡在知道之外 | 悄悄地、私下地、无形地、间接地、安静地 | "它描述的不是动作本身,而是动作和旁观者知识之间被人为切断的关系。" |
+| 公平 | 一种对待的规范(争议概念) | 在相关各方的比较之下,分配或判断能给出正当理由 | 平等、正义、善良、合法、中立 | "它出现时,问题不只是某人得到了什么,而是为什么他得到这些而别人得到那些。" |
 
-### Rigorous style
+公平一行的提醒(二代原注):这类词**没有单一的中立替代**,解释时必须在平等、应得、需要、程序、结果几条路里选一条并声明立场——正是 definition-tools.md 第七节的地形。
 
-Use genus and differentia. Best for definition practice.
+## 六、四代新族配目标(专名族 / 无否族 / 流变族 / 证源族)
 
-Example: “它属于一种把未来行动纳入现在判断的社会行为，但不同于预测，因为说话者本人被这句话约束。”
-
-### Poetic style
-
-Use image-like essence while preserving exactness. Best for sensitivity and intuition.
-
-Example: “它像是把尚未到来的自己，提前交到别人手里。”
-
-## Rotation guidance
-
-Across a session, vary targets:
-
-1. concrete noun to warm up;
-2. verb to train process;
-3. adjective/adverb to train subtle linguistic form;
-4. abstract or contested concept to train anti-definition awareness.
-
-Do not repeat the same target or obvious semantic family unless the user requests a focused drill.
+- **专名族**(缺类):鸟、树、工具、规则、标准、刻板印象、物种、名字(反着逼:他们有名字却没有类)。
+- **无否族**(缺否定):零、影子、沉默、空白、缺席、禁止、拒绝、遗忘、自由(作为无强制)。
+- **流变族**(缺名物):桌子、河、身份、所有物、名字、忒修斯之船、记忆(作为"东西"还是"过程")。
+- **证源族**(缺无源之言):谣言、常识、信任、证据、新闻、偏见、名声、权威、迷信。

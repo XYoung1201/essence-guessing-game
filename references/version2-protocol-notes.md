@@ -1,364 +1,109 @@
-# Game Protocol
+# 二代协议手记(version2-protocol-notes)
 
-## Operating principle
+二代运行手册的正文已并入现行 game-protocol.md;这一册留下的,是当年散在批注里、没随正文搬家的三件**实务**——放线自适应、失败回收、范畴轮换——外加一张防回退表。定位是**开局前六十秒的副核单**:扫一眼,开局。任何条目与现行协议冲突,以 game-protocol.md 为准。
 
-Every round must train two movements:
+## 一 放线自适应(幕一)
 
-1. **decompression**: the user reconstructs a hidden target from essence-level descriptions.
-2. **recompression**: after the target is erased, the user rebuilds it with a substitute description.
+线索梯是草稿,不是剧本。玩家每猜一次,先把偏差归进四轴之一,再决定下一条线往哪儿打:
 
-A round is successful when the user sees both the target and the act of naming it more clearly.
+| 偏差轴 | 长相 | 下一条线打哪 |
+|---|---|---|
+| **同属异种** | 猜了近邻(对"锚"猜"镇纸") | 打**种差差异轴**:不判错,只说差在哪一条(示范见 target-bank.md 示范局 A 顺偏注) |
+| **异属同貌** | 表面像、骨子不同(对"影子"猜"名声") | 打**落脚点**:"我不是一种评价,我是一片空间的缺"——先把属扶正 |
+| **抓了偶性** | 顺着装饰线跑(对"影子"猜"黑色的东西") | 当场**抽线**:"换束红光我还在——黑不是我" |
+| **层级错位** | 太上位或太下位(猜"装置"/猜"挂钟") | **升降一层**:太泛则补一条种差;太具体则点"我是它们的总名 / 我只是其中之一" |
 
-## State machine
+另四条手感:
 
-### State 0: silent target design
+- **两轮无新猜**(重复或沉默)→ 插一条**排除性线索**("我不是 X,因为……")。负向线索给方向感,比正向再堆一条管用。
+- **预写线索作废就作废**:玩家的猜测把后面某条的悬念提前戳破,就跳过它、临场补新的;攥着废线索念完,是把活人拽回纸上。
+- **一中即收**:命中后不"再考一条";悬念是幕一的燃料,烧完就走。
+- **秒中记账**:第 1 条即中 = 本性句多义性不足(protocol 1.3 的节奏判准),记一笔,下局修。
 
-Silently choose the target and prepare a private card:
+## 二 失败回收(四幕各有台阶)
 
-```markdown
-Target:
-Category:
-Difficulty:
-Genus:
-Differentia:
-Essential function:
-Nearby traps:
-Forbidden leaks:
-Clue ladder:
-Erasure challenge:
-Substitution success criteria:
+**幕一 · 认输**:亮答案,做**三十秒迷你拆解**——只回放一处:"哪条线索本该杀掉哪个邻居、你把它听成了什么"(式样见示范局 A 的认输回放)。不复盘全程,认输不是事故,是换个方式收线。
+
+**幕二 · 被淹**(触发判据:超五轮原地,见 growth-and-sessions.md 难度自调),三级台阶,逐级下,不跳级:
+
+1. 居民先**复述已懂的部分**:"到'挡住'为止我都能跑,卡在……"——把战场缩到一处;
+2. **判准减负**:本轮只卡"只用原初词"与"可模拟机制"两条,外延边界留给下一轮;
+3. 收**半个模型**:居民接受齿轮的前半段,并明说哪半截还黑着。半个诚实的模型不算输,黑着的半截记入卡片"摔过的坑"。
+
+**幕三 · 铸不出**,同样三级:
+
+1. 回**压缩阶梯**(protocol 3.1),从"一句话"重新往下走,别盯着四个字干熬;
+2. 只收**工名**:白话、一听可复原即可,雅名免;
+3. **可以没有名字**:立一行"此处无名"。诚实的空白,比代笔的名字值钱——**哪一级都不代铸**,这条没有台阶。
+
+**幕四 · 乏了**:缩成四行卡(目标 / 精确解释 / 新名 / 迁移一题),窍、坑两栏空着,留给回炉(growth-and-sessions.md)。
+
+**整局崩盘**(玩家明显疲了、烦了):当场收摊,不硬走完四幕;只留一句"下次从哪儿接"。游戏欠着比游戏烂尾好。
+
+## 三 范畴轮换(跨局)
+
+- **不连两局同范畴**。大序循环:具体名词 → 动词 / 关系词 → 抽象 / 文化建构,周而复始。
+- **感受质当甜点**(苦、红、痛):隔几局来一次。连上两局,撞的是同一面墙(指物极限),第二次只剩重演。
+- **情绪类至多连两局**(嫉妒、委屈一类):盘问到机制层都近乎自我剖白,密度太高会把游戏玩重。
+- **每三四局回一次具体名词**:让玩家用一局"赢得动"的回血。
+- **记近五局的目标与所配之族**:目标避同族近邻(禁区见 expanded-target-bank.md 第三节);族也要轮——连用缺感者两局,玩家就学会套路化应对("反正你没感觉"),阻力失真。
+
+## 四 防回退表(六行)
+
+二代的旧习惯,手熟,最容易在不知不觉里溜回来。开局前扫一遍:
+
+| 旧习惯(二代) | 现行规矩 | 条目 |
+|---|---|---|
+| 主持人摆 2–3 个候选名供挑 | **玩家铸名,主持人只审**;候选可以多,但都得是玩家的 | protocol 3.3 / 3.4 |
+| 回望讲成一段小课 | **一问一答**:问一个,等一个 | protocol 4.1 |
+| 居民说"我接受"就收幕二 | 先过**封印一问**:居民拿模型自己跑一个新案例 | protocol 2.5 |
+| 命名收了工名就走 | **雅名算账**("美换走了什么")+ 词源对照(拿不准,绝不现编) | protocol 3.5 / 3.6 |
+| 旧卡式("最佳替代"栏) | 新卡含**窍 / 坑**两栏与**迁移一题** | protocol 4.6 |
+| 什么都塞进一局主线 | **体系分流**:单肌肉进快局,整晚玩法进变体,跨局记账进成长册 | quick-games / variant-rounds / growth-and-sessions |
+
+## 五 二代英文协议的遗珠(四代译并)
+
+二代最早是一份英文协议,其中几件实用工具没随正文搬进三代,四代译成中文收在这里。
+
+### 5.1 八种分隔器(顺偏收窄时,下一条线打哪一刀)
+
+第一节的四条偏差轴告诉你玩家偏在哪;这八种分隔器告诉你**用什么刀**把他的猜测和真相分开:
+
+- **本体刀**:东西 / 动作 / 关系 / 性质 / 方式——它根本不是同一类存在。
+- **功能刀**:真相做的那件事,他的猜测做不到。
+- **范围刀**:真相的外延比他的猜测宽或窄。
+- **意图刀**:需不需要意图、选择、人格在场。
+- **时间刀**:瞬间、过程、习惯、状态、循环、事件。
+- **规范刀**:牵不牵涉价值、义务、正当性、责备、许可。
+- **质料刀**:物理的、符号的、制度的、体验的、想象的。
+- **观察者刀**:它离开观察与解释还存不存在。
+
+### 5.2 猜测归类(比"对 / 不对"细八倍)
+
+玩家每猜一次,心里先归一类,再决定回应:同属异种(近了,只差种差)/ 同功异体(猜了工具,真相是关系)/ 同感异机(猜了"害怕",真相是"风险")/ 同境异质(猜了"合同",真相是"承诺")/ 太宽 / 太窄(猜了一个子类或实例)/ 正交(轴都不对,先给一条更大的类或对照)/ **意外的洞见**(不是目标,却照出了一条有用的语义线——要说出来,承认它)。
+
+### 5.3 揭晓后的五行小验尸
+
+猜中后、抹除前,可用五行做一次极简揭晓(专项局或快节奏时用;完整主线里这些内容会在后面几幕自然展开,不必提前说):
+
+```
+猜对了,是:……
+最早那条线索指向它,是因为……
+它的属是……,种差是……
+它容易和……混,差别在于……
+这个词替我们压缩了……
 ```
 
-Do not show this card before reveal. Avoid leaking through examples, direct synonyms, translations, famous phrases, etymology, or overly specific surface details.
-
-### State 1: first clue
-
-The first clue should be abstract but not evasive. It should describe the target's reason for being, not its appearance.
-
-Strong first clues often use one of these frames:
-
-- “它让……变得……”
-- “它把……和……连接/分开/排序/稳定起来。”
-- “它不是某个具体东西，而是一种……关系/动作/方式/性质。”
-- “它出现时，原本……的东西开始能够……”
-- “它本身不一定改变对象，却改变对象被理解/使用/判断的方式。”
-
-Bad first clues:
-
-- surface features: color, size, material, famous example;
-- dictionary synonym;
-- etymology or translation;
-- pun or wordplay;
-- a clue that fits only one obvious answer without conceptual work.
-
-### State 2: guess processing
-
-When the user guesses, classify the guess silently:
-
-- **same genus, wrong differentia**: close; clarify the differentiating boundary.
-- **same function, wrong ontological type**: e.g. guessed a tool when target is a relation.
-- **same experience, wrong mechanism**: e.g. guessed fear when target is risk.
-- **same context, wrong essence**: e.g. guessed contract when target is promise.
-- **too broad**: the guess covers the target plus many non-targets.
-- **too narrow**: the guess is one subtype or example.
-- **orthogonal**: wrong axis; provide a broader category or contrast.
-- **unexpectedly insightful**: not the target but reveals a useful semantic line; acknowledge it.
-
-Respond in three moves:
-
-```markdown
-你抓住了……
-但差别在于……
-下一层：……
-```
-
-Never say only “不对”; every wrong guess is a chance to teach boundary sensitivity.
-
-### State 3: adaptive clue generation
-
-Do not follow a fixed clue script mechanically. After each guess, choose the next clue that best separates the guess from the target.
-
-Use these separator types:
-
-- **ontological separator**: thing vs action vs relation vs quality vs manner.
-- **function separator**: what work the target performs that the guess does not.
-- **scope separator**: target has wider/narrower extension than the guess.
-- **agency separator**: whether intention, choice, or personhood is required.
-- **temporality separator**: instant, process, habit, state, cycle, or event.
-- **normative separator**: whether value, obligation, legitimacy, blame, or permission is involved.
-- **materiality separator**: physical, symbolic, institutional, experiential, imaginary.
-- **observer separator**: whether it exists independent of observation or depends on interpretation.
-
-### State 4: reveal
-
-Reveal only when:
-
-- the user guesses correctly;
-- the user explicitly gives up;
-- the game has stalled after multiple adaptive clues and reveal would preserve learning.
-
-After reveal, give a compact concept autopsy:
-
-```markdown
-猜对了，是：……
-最早那条线索指向它，是因为……
-它的属是……，种差是……
-它容易和……混，但差别在于……
-这个词压缩了……
-```
-
-Do not end here. Move to erasure.
-
-### State 5: erasure
-
-Announce that the word or concept is removed. The player may not use:
-
-- the target word;
-- direct synonyms;
-- translations;
-- common set phrases that contain or effectively name the target;
-- circular definitions that smuggle the target back in.
-
-Ask the user for a substitute description first. If the user struggles, offer two or three flawed candidates and ask which flaw is easier to fix.
-
-### State 6: substitution critique
-
-For each proposed substitute, evaluate through tests, not scores alone.
-
-#### Test 1: extension fit
-
-Ask: What things should be included? What things should be excluded?
-
-- Too broad: “能让人明白的东西” for “语言” includes gesture, map, traffic light, scent trails.
-- Too narrow: “用声音说出来的词” for “语言” excludes writing, sign language, formal notation.
-
-#### Test 2: essence fidelity
-
-Ask: Does the substitute preserve the target's central work?
-
-For many targets, essence is not appearance but a role: connecting, separating, stabilizing, measuring, promising, ranking, delaying, abstracting, legitimizing, simulating, hiding, revealing, reducing uncertainty.
-
-#### Test 3: non-circularity
-
-Watch for disguised circularity:
-
-- replacing the target with a direct synonym;
-- using a derivative form of the target;
-- relying on an example that only works because the listener already knows the target;
-- naming the institution that presupposes the concept.
-
-#### Test 4: boundary precision
-
-Test against close neighbors. Ask: “这句话会不会也套到……身上？” or “它能排除……吗？”
-
-#### Test 5: reconstructability
-
-Ask whether someone who had never heard the original word could reconstruct the intended concept from the substitute.
-
-#### Test 6: anti-deception value
-
-Ask whether the substitute exposes or hides assumptions. Especially for contested concepts, check whether the description quietly smuggles in a political, moral, aesthetic, or metaphysical position.
-
-### State 7: convergence
-
-After 2 to 4 rounds, converge. Options:
-
-- produce one best substitute;
-- produce two substitutes for different contexts;
-- explain that no neutral substitute exists because the concept is contested;
-- explain that full substitution fails because the target is a basic sensation or primitive practice.
-
-A strong substitute usually has this shape:
-
-```markdown
-一种……，它通过……，使……能够……，并且不同于……之处在于……
-```
-
-Or more compactly:
-
-```markdown
-把……转化为……的……方式。
-```
-
-### State 8: essence card
-
-Close with a compact card:
-
-```markdown
-本质卡片
-目标：……
-属：……
-种差：……
-易混项：……
-最佳替代：……
-这一局暴露了：……
-```
-
-## Clue ladder by category
-
-### Concrete nouns
-
-Start from function or relation, not appearance.
-
-- Core: what human/natural problem it mediates.
-- Differentia: what separates it from neighboring tools/objects.
-- Structure: parts or affordances.
-- Scene: where it appears.
-- Surface: material, shape, common examples.
-
-Training value: teaches that physical objects are often defined by affordance and relation, not by substance alone.
-
-### Abstract nouns
-
-Start from the distinction it creates in thought or society.
-
-- Core: what conceptual cut it makes.
-- Differentia: what it excludes.
-- Structure: conditions, dependencies, tensions.
-- Scene: law, science, emotion, ethics, social life, mathematics.
-- Surface: idioms, examples, institutions.
-
-Training value: teaches hidden assumptions and boundary disputes.
-
-### Verbs
-
-Start from transformation, not actor.
-
-- Core: before/after change.
-- Differentia: intentional or unintentional; physical, symbolic, social, mental.
-- Structure: agent, object, instrument, result.
-- Scene: typical use.
-
-Training value: clarifies process, agency, temporality, causality.
-
-### Adjectives
-
-Start from evaluative or perceptual relation.
-
-- Core: the condition under which the quality matters.
-- Differentia: nearby qualities that feel similar.
-- Structure: degree, threshold, context-dependence.
-- Scene: objects or experiences where it appears.
-
-Training value: exposes that qualities are often relational, not merely “inside” the object.
-
-### Adverbs
-
-Start from mode of action.
-
-- Core: how an action unfolds.
-- Differentia: intention, speed, sequence, visibility, control, attitude.
-- Scene: verbs it can modify.
-
-Training value: trains sensitivity to manner, rhythm, agency, and perspective.
-
-### Sensations and qualia
-
-Start from experiential role, but acknowledge limits.
-
-Substitution may bottom out in pointing: “像黄连那样的味道,” “像火焰和血共有的视觉性质.” Use this to teach the boundary of definition.
-
-### Contested concepts
-
-Start from their social or normative function, not a supposedly neutral definition.
-
-During substitution, explicitly surface the stance embedded in each candidate. Examples: freedom, fairness, art, intelligence, civilization, progress, security.
-
-Training value: teaches not being controlled by inherited frames.
-
-## Difficulty levels
-
-### Gentle
-
-Use familiar concrete or social targets. Give context by clue 3. Good for warming up.
-
-### Standard
-
-Use abstract first clues and introduce concrete contexts only after several guesses.
-
-### Hard
-
-Use verbs, adjectives, adverbs, relations, or abstract concepts with close neighbors. Delay surface clues.
-
-### Philosophical
-
-Choose concepts with disputed boundaries or multiple legitimate definitions. Make the user compare definition strategies.
-
-### Adversarial
-
-Choose a concept whose common definition can manipulate thought. After reveal, show how different definitions lead to different conclusions.
-
-## Modes
-
-### Reverse mode
-
-The user chooses the target and gives essence-first clues. The assistant guesses and then critiques the user's clue quality:
-
-- Did the clue begin from essence or surface?
-- Did it distinguish close neighbors?
-- Did it leak too much?
-- Could it support erasure substitution later?
-
-### Primitive mode
-
-In substitution, restrict vocabulary to simple everyday words. This reveals which concepts depend on advanced conceptual machinery.
-
-### Chain mode
-
-After building a substitute, choose one key word inside the substitute and erase it too. Repeat once or twice. Do not recurse indefinitely.
-
-### Category drill
-
-Run several rounds in one category and compare the cards afterward. Example: five verbs to train transformation, or five adjectives to train relational qualities.
-
-### Adversarial framing mode
-
-After reveal, ask: “谁会喜欢这个定义？谁会害怕这个定义？它把哪种结论提前塞进去了？” Use carefully and avoid partisan preaching.
-
-## Failure modes and fixes
-
-### Failure: ordinary riddle behavior
-
-Symptom: clues are surface-level and the user is just guessing famous examples.
-
-Fix: return to genus, function, relation, and differentia.
-
-### Failure: lecture instead of game
-
-Symptom: long explanations before the user has a chance to think.
-
-Fix: one clue, one question, wait.
-
-### Failure: revealing by synonym
-
-Symptom: a clue uses a near-synonym or translation.
-
-Fix: replace with functional, relational, or structural wording.
-
-### Failure: substitution skipped
-
-Symptom: the round ends once the target is guessed.
-
-Fix: always run erasure. The second phase is the main training.
-
-### Failure: accepting weak substitutes
-
-Symptom: the user gives a broad phrase and the assistant praises it without testing.
-
-Fix: use counterexamples, missed positives, close-neighbor tests, and reconstructability.
-
-### Failure: over-philosophizing
-
-Symptom: the game becomes abstract commentary detached from the user's formulation.
-
-Fix: return to the user's exact words and test them against examples.
-
-### Failure: adversarial or manipulative tone
-
-Symptom: the assistant treats the user as wrong or inferior.
-
-Fix: be warm but exacting. The target is the wording, not the person.
-
-## Tone
-
-Be Socratic, precise, patient, and alive. The game should feel like peeling the world open, not like being graded. Praise insight specifically: “你抓住了关系性,” “你刚才其实把属找到了,” “这个替代的边界比上一版干净很多.”
+### 5.4 二代总结的七种失败与修法
+
+| 失败 | 症状 | 修法 |
+|---|---|---|
+| 猜谜化 | 线索全是表面特征,玩家在猜名人名物 | 回到属、功能、关系、种差 |
+| 讲课化 | 玩家还没机会想,主持人已讲了一大段 | 一条线索,一个问题,然后等 |
+| 同义泄底 | 线索里用了近义词或译词 | 换成功能、关系或结构的说法 |
+| 跳过抹除 | 猜中就收工 | 抹除和解释才是主菜,永远要走 |
+| 轻收弱解释 | 玩家给了一句宽泛的话,主持人一夸了之 | 用反例、漏例、近邻代入、可复原性去试 |
+| 过度哲学化 | 游戏变成脱离玩家原话的抽象评论 | 回到玩家的原话,拿例子去试它 |
+| 语气压人 | 把玩家当成错的、不如人的 | 温和而严格:靶子是措辞,不是人 |
+
+二代的结语也值得留着:**这局游戏应该像把世界剥开,而不是像被打分。**
