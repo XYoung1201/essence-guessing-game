@@ -1,6 +1,6 @@
 interface:
-  display_name: Essence Guessing Game
-  short_description: Essence-first guessing and definition reconstruction game
+  display_name: 猜词 · 解释 · 命名
+  short_description: 概念的全生命周期训练游戏:由核向外猜词、向失语群岛的居民解释、亲手铸名、回望收卡;另有十二种快局、十种变体与十六族居民。
   brand_color: '#4a3f8f'
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg

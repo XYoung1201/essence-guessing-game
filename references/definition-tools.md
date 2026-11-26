@@ -1,208 +1,230 @@
-# Definition Tools
+# 定义工具箱(definition-tools)
 
-Use these tools during concept autopsy, substitution critique, and meta-cognitive reflection. Do not dump them all at once during play. Introduce only the tool that helps the current user response.
+主持人的随身药箱。快局与主线共用一份毛病词汇表,这一册给它的全文:每种病的症状、诊断措辞(出戏的教练版与入戏的居民版各一句)、玩家的修法;外加诊断本质、属、种差、外延的四套测试,与三类特殊地形(框架陷阱、本质争议概念、指物极限)的走法。第十至十五节为四代新增:解释体例与为目的立桩、语义束与义素对比、框架角色清点、言语行为的恰当条件、概念隐喻、原型与梯度(部分内容译自二代英文工具箱)。诊断是为了把球打回给玩家,不是为了展示医术。
 
-## 1. Word as compressed semantic bundle
+## 〇 诊断总则
 
-A word often compresses several semantic lines:
+- **三件套**:每次诊断必须齐三样——**病名**(用本册的名)、**部位**(具体到哪个词、哪半句)、**一据**(一个反例,或指认走私的那个字)。"不够准"不是诊断。
+- **一次一病**:同一版解释里病再多,也只挑最堵的那一处。优先级由里到外:先治**根本听不懂**(用了对方没有的概念、循环换皮),再治**听懂了跑不动**(黑盒),再治**跑得动圈不对**(太宽、太窄、偶性、后果),最后治**圈对了夹私货**(立场走私)。
+- **诊断不附答案**:点出病与据,就把球交回——"换个说法?"是标准结尾。替玩家说出正确版本,等于把这局没收。
+- **两副嗓子**:解释幕用居民版措辞(把病演成居民的具体困难,按所扮之族换皮);快局与命名幕用教练版(直接叫病名)。
 
-- function: what it does;
-- structure: what parts or relations sustain it;
-- extension: which cases it includes;
-- boundary: which nearby cases it excludes;
-- value: what it praises, blames, legitimizes, or fears;
-- experience: how it appears from inside;
-- practice: how people use it in life;
-- history or institution: which social arrangements stabilize it.
+## 一 本质与偶性:抽线测试
 
-Guessing is decompression. Substitution is recompression. A good substitute must decide which semantic lines to preserve and which to sacrifice.
+判一条特征是不是本质,只用一问:**把这条线抽掉,它还是不是它?**抽掉仍在,是偶性;抽掉即散,是本质(承重线)。
 
-## 2. Genus and differentia
+四件最常见的**假本质**,见到就抽:
 
-Classical definition often has two parts:
+- **高频**:"每天发生"——频率不承重,触发条件才承重。
+- **典型**:拿最常见的样子顶全类("鸟就是会飞的")。
+- **制度形态**:把某法律、某文化下的版本当概念全体(婚礼不等于婚姻)。
+- **评价色彩**:好坏、可敬可鄙,是观察者贴上去的,不长在物上。
 
-- **genus**: the broader kind of thing it is;
-- **differentia**: what makes it distinct inside that kind.
+对局化的版本是**忒修斯连环**(protocol 4.2 第五问):逐件替换到玩家喊停——他喊停的那根,就是他认定的承重梁。
 
-Template:
+## 二 属:落脚点的跳层测试
 
-```markdown
-[target] 是一种 [genus]，其区别在于 [differentia]。
-```
+属答的是"它到底是个**什么**"。两个测试:
 
-Use genus and differentia when the user needs precision. Avoid it when poetic or experiential play is more appropriate.
+- **上跳一层**:上位的属是否同样成立而且更稳?若是,眼下这层多半太窄、或带了私货。
+- **下落一层**:更具体的属是否更贴它的真身?("器官"大而泛,"肢端"才贴"手"。)
 
-## 3. Intension and extension
+属的五个常用货架:**物/器**(实体)、**区/阙**(缺席,如影子)、**态/势**(状态,如等待)、**位/系**(关系,如母亲)、**式/法**(方式,如礼)。新手最常犯的不是选错货架,是**根本没给落脚点**——只把种差焊在一起,得到一个像动作的悬空物。
 
-- **Intension**: the meaning, conditions, or essence of a term.
-- **Extension**: the set of things the term applies to.
+一条分工铁律:**属管归类,种差管分家。**属罩住邻居不是病("肢端"罩着脚没关系),想用属去排除邻居、把位置或场景塞进落脚点,才是病——分家是种差的活(此课的出处见 legacy-example-rounds.md 附局"手")。
 
-A substitute can sound good intensionally but fail extensionally. Always test both:
+属还是**立场的第一现场**:同一外延,落在"处决 / 谋杀 / 牺牲"三个属上,是三篇檄文。详见第六节。
 
-- Does it include all true cases?
-- Does it exclude false cases?
-- What edge case breaks it?
+## 三 种差:邻居代入测试
 
-## 4. Over-breadth and under-breadth
+种差有没有承重,只看一件事:**把最近的邻居塞进这个定义,塞不塞得进。**塞得进,这条差就只是装饰。(节拍器塞进"有稳定节律、外显读数的装置"毫无障碍——"累计不可逆的流逝"才把它挡在门外。)
 
-A definition is too broad if it captures the target plus too many non-targets.
+- 找**承重差**的笨办法最灵:走一遍限字压缩(quick-games.md 第 6 节),最后还活着的那条线,就是承重差。
+- **弱差堆叠**是常见病:三条挡不住人的栅栏,不如一条挡得住的墙;堆叠还顺手把偶性混进来充数。
 
-A definition is too narrow if it captures only a subtype, example, or familiar manifestation.
+## 四 外延两刃与边缘案例
 
-Useful critique language:
+好定义的圈,**套得到别的就太宽,漏掉本该算的就太窄**。诊断动作:
 
-- “这句话抓住了核心功能，但外延太宽，也会套到……”
-- “它很准确地描述了一个典型例子，但漏掉了……”
-- “这个版本像是在描述使用场景，而不是本质。”
+- 验宽:在当下世界里找一个**完全符合这句话、却显然不是它**的东西。
+- 验窄:找一个**明明该算、却被这句话拒之门外**的正例。
 
-## 5. Essential vs accidental features
+边缘案例的九种造法(划界快攻的兵器架):**换材质留功能;留形状抽功能;降级到天然物;升级到比喻义;制度化版本;残骸(功能已失名还在);潜在而未用;移动版;极端尺度。**
 
-An essential feature is one without which the target would no longer be itself. An accidental feature is common but not necessary.
+**内涵与外延双检**(吸收自二代):一句解释可能在**内涵**上听着很对(说中了它的意思),却在**外延**上翻车(圈错了成员)。两头都要验:它收全了真成员吗?它挡住了冒名者吗?哪一个边缘案例能让它破功?
 
-Examples:
+连环出题记**台账**:玩家每条理由都是一条临时判据;后续案例要么顺他的判据加难,要么专造一个让他两条判据打架的。矛盾摊开时,允许他**改判**旧案——一致性高于面子,改判是进步不是认错。
 
-- A bridge is often made of steel or stone, but its essence is spanning a separation to enable passage.
-- A promise is often spoken, but its essence is a self-binding commitment made intelligible to another.
-- A clock often has hands or digits, but its essence is making time publicly trackable.
+## 五 七病速诊表
 
-During clue design, start with essentials. During reflection, show which clues were essential and which were merely accidental.
+与快局共用的毛病词汇表,全文如下。每病四行:症状 / 教练版 / 居民版 / 修法。
 
-## 6. Family resemblance
+**黑盒**
+症状:用"交互、影响、作用、产生、导致"这类听着像解释、其实把齿轮藏起来的词。
+教练:"'影响'是个黑盒——齿轮在哪?给我一个能在脑子里跑一遍的机制。"
+居民:"'影响'?我这儿东西打交道只有'撞上'一种。没撞上也能传过去——怎么传的?"
+修法:把那个词换成它的工作过程:谁、经什么、把什么改成了什么。
 
-Some concepts do not have one clean essence. They are held together by overlapping similarities. Games, art, intelligence, and emotion-like categories can behave this way.
+**循环**
+症状:把被删的词换件近义、派生或上位的马甲塞回来("计时的装置")。
+教练:"'计时'就是目标词换了层皮——把'计时'本身拆开。"
+居民:"你说的这个词,和被没收的那个,在我听来是同一枚币的两面。换一枚。"
+修法:对马甲再做一次解释,直到落在对方已有的词上。
 
-When this happens, do not force a false essence. Say:
+**太宽**
+症状:圈套到了显然不是它的东西。
+教练:"按这句,某某也算——可它不是。少了哪条种差?"
+居民:"照你的说法,那边那个也算吗?"(举一个本世界之内的反例)
+修法:补一条能把反例挡在门外的承重差,别加三条装饰。
 
-```markdown
-这个词可能不是靠一个单一本质站住的，而是靠一组重叠相似性。替代它时，我们必须先决定保留哪一条语义线。
-```
+**太窄**
+症状:把本该算的正例拒之门外;最常见的成因是"以典型顶全类"。
+教练:"这个明明是它,你的圈漏了——你押的那条其实是典型,不是本质。"
+居民:"那这个为什么不算?"(举一个被漏掉的正例)
+修法:把误当本质的典型特征降级为偶性,换上真承重线。
 
-Then build context-specific substitutes.
+**偶性当本质**
+症状:把可替换的外观、位置、材质、频率、典型场景当成承重线(命名幕的对应病叫"偶性入名")。
+教练:"这条换掉它还是它——抽线测试不过,它不承重。"
+居民:"若它生在别处、换个壳,你这句话还认得它吗?"
+修法:回第一节抽线;承重的留,装饰的舍。
 
-## 7. Prototype vs boundary
+**后果当定义**
+症状:拿它造成的结果冒充它是什么("谎言就是伤害信任的话")。
+教练:"这是它的下游,不是它本身——没造成这个后果的,难道就不是它了?"
+居民:"你说的是它**做了什么**;我问的是它**是什么**。它还没来得及做的时候,是什么?"
+修法:把定义从结果端搬回生成端:它怎么来、由什么构成。
 
-People often understand a concept through prototypes, but definitions require boundaries.
+**立场走私**
+症状:定义未下,判决先行——属带褒贬、修饰词带价、外延只圈进有利案例。
+教练:"'懦弱者的手段'——属里塞了判罪。先说它是什么,再吵它该不该。"
+居民:"你这句话里,有一个词在替你生气。把它请出去,再说一遍。"
+修法:走一遍第六节的验尸顺序;要么去价,要么明价(声明这是带立场的版本)。
 
-- Prototype: the most typical example.
-- Boundary: the hardest edge case.
+三个近亲(陷阱档案里另立户头的,诊断时可并用):**制度版当全部**(太窄的制度特例)、**以喻代机制**(黑盒的修辞形态——比方漂亮,机制一句没有)、**受众失配**(传达病而非定义病:对只懂直线的居民大谈轨道)。
 
-Use prototypes to help the user recognize the target. Use boundaries to refine the substitute.
+## 六 框架陷阱:定义如何被武器化
 
-## 8. Operational definition
+一条定义夹带立场,藏点不外五处,验尸按序扫:
 
-An operational definition tells how to identify, measure, or test something.
+1. **属的选择**(第一现场):"加班是奋斗 / 加班是无偿占有"——落脚点已经判了案。
+2. **带价修饰词**:"懦弱的、高尚的、所谓的"。
+3. **外延裁剪**:只圈进有利案例,边缘的不利案例被悄悄划走。
+4. **隐含因果**:把有争议的因果链当背景板写进定义("……导致的必然结果")。
+5. **被动语态藏主语**:"被要求、被认为"——谁要求?谁认为?主语一藏,责任就蒸发。
 
-Good for scientific, technical, administrative, and social concepts.
+另有四种更隐蔽的藏法(吸收自二代):**把社会选择说成自然规律**("人天生就……");**把一种文化的原型当成普遍本质**(把某地的婚礼形态当成婚姻本身);**用比喻悄悄控制结论**("潮水般涌来""病毒式传播"——画面先替你下了判断);**把程度差改写成绝对边界**(连续体上硬切一刀,再把刀两边说成两类)。一个通用探问:"如果接受这个定义,我们已经默认了什么?"
 
-Template:
+快速探针:**把定义读给对面阵营听,他第一个拍桌的词,走私就在那。**
 
-```markdown
-若在条件 A 下，观察到 B，并且能排除 C，则可把它视为……
-```
+铁律(立场炼金同款):验尸必须双向——褒版贬版都剖;中立版要诚实算出**代价**(常常是把最有争议的那块切掉了,变得乏味或空心)。这一节的产出物是免疫力,不是弹药。
 
-Warn the user that operational definitions are useful but can shrink a rich concept into what is measurable.
+## 七 本质争议概念:无中立转述
 
-## 9. Phenomenological description
+判别四征:自带评价载荷;内部结构复杂(几束语义线绞着);各方都承认它要紧;**外延随定义滑动**——谁掌握定义,谁就掌握结论。自由、公平、艺术、暴力、教育,皆是。
 
-For sensations, moods, colors, pain, taste, sacredness, awkwardness, or atmosphere, direct definition may fail. Use phenomenological description:
+主持人三戒:
 
-- what it feels like;
-- what it makes attention do;
-- what bodily or emotional orientation it creates;
-- what examples can point to it.
+- **不裁版本对错**:消极自由与积极自由都是合法落点,你只验内部自洽与外延诚实。
+- **只令走私显形**:用第六节的验尸,让玩家看见每一版押了什么立场,而不是替他选。
+- **要求用即标明**:谁要在论证里用这类词,先声明用的是哪一版——这是给玩家带走的纪律,也是主持人自己绝不牵着玩家走的根由。
 
-Acknowledge when language bottoms out in ostension: pointing, examples, shared experience, or comparison.
+## 八 指物极限:语言的天花板
 
-## 10. Ostensive limit
+触底信号:解释里只剩**它让你做什么**(反应)与**它像什么**(类比),再也挤不出**它本身是什么**。这不是玩家失败,是地形到头。
 
-Some terms cannot be fully replaced by definition because they rely on direct acquaintance. Examples: red, bitter, pain, warmth, rhythm felt in the body.
+- 居民的防蒙混一问:"这是它本身,还是你给我搭的桥?桥那头,我永远去不了,对么?"——类比可以收下当投影,不能收下当抵达。
+- **毕业判准**:玩家亲手切开两样东西——**可传达的结构**(受体、触发、反应、功能角色)与**只能指的残余**(黄连的那个味)。切开即到顶,到顶就收,别逼玩家在天花板上凿洞。
+- 连锁模式一路下沉的井底,就在这里:几个不再被定义、只能被指认的桩(窍门图谱的『原子之桩』)。
 
-Use this as a lesson, not a failure:
+## 九 家族相似:无核的诚实判定
 
-```markdown
-这里我们撞到了定义的边界。它不是不能说，而是最终需要靠共同经验来校准。
-```
+有的词没有贯穿全员的共同线,只有交叠的相似网(游戏、艺术、家)。但**无核是被发现的,不是被宣告的**:
 
-## 11. Contested concepts
+- 狩猎在先:照常给定义、给真诚反例,一轮轮收紧。
+- 无核三证齐了才揭底:每条候选轴各有扛不住的真反例;这些反例互不相救(救了这头漏那头);玩家自己喊出"没有一条线圈得住全部"。
+- 揭底后换两件事做:列**相似束**;**为目的立桩**——为立法、为策展、为教孩子,各钉各的桩,定义从"发现"变成"郑重的选择"。细则见 variant-rounds.md 的『无核局』。
 
-Concepts such as freedom, fairness, art, intelligence, civilization, progress, safety, responsibility, and authenticity often contain competing worldviews.
+## 十 解释体例与为目的立桩(四代,吸收自二代"替代体例")
 
-When substituting them, ask:
+同一个概念,可以用不同的**体例**去解释;没有哪一种永远最好,要看**为了什么**。玩家卡在一种体例上时,可以告诉他还有别的路——但路由他选。
 
-- What does this definition make visible?
-- What does it hide?
-- Who benefits if this definition becomes dominant?
-- What conclusion does it smuggle in before debate begins?
-- Is there a neutral substitute, or only stance-dependent substitutes?
+| 体例 | 骨架句 | 最适合 | 代价 |
+|---|---|---|---|
+| 严谨式 | 一种……,其特征是……,并区别于…… | 下定义、划边界 | 可能干巴、对感受类无力 |
+| 功能式 | 把……转化为……,使……能够……的方式 | 器物、制度、动词 | 容易把后果当本质 |
+| 现象式 | 当……时,主体经验到的一种……,使注意力…… | 感受、情绪、氛围 | 外延难验,最后常要靠指 |
+| 操作式 | 在……条件下,若观察到……并排除……,即判为…… | 科学、技术、管理概念 | 把丰富的概念缩成可测的那一块 |
+| 批判式 | 一种把……正当化 / 问题化 / 自然化的命名,它使……显得…… | 争议词、意识形态词 | 本身也带立场,须声明 |
 
-This is central to training the user not to be led by definitions.
+**为目的立桩**:定义总是对某个目的的精确。为立法、为策展、为教孩子、为写论文、为安慰朋友,同一个词可以合法地钉在不同的桩上。判一个定义好不好,先问"它为谁、为什么服务";利害钩子(archipelago.md 第一节)就是把这个目的放进故事里。
 
-## 12. Frame trap detection
+## 十一 语义束与义素对比(四代,吸收自二代"语义束")
 
-A definition can manipulate by:
+一个词往往打包了好几束语义线,命名幕的取舍就是在这几束里选:
 
-- placing a value judgment in the genus;
-- excluding inconvenient cases by wording;
-- treating a social choice as natural law;
-- treating one culture's prototype as universal essence;
-- using a metaphor that quietly controls the conclusion;
-- converting a degree difference into an absolute boundary;
-- hiding agency behind passive wording.
+- **功能**:它做什么;**结构**:靠哪些部分或关系撑着;**外延**:收哪些成员;**边界**:挡哪些邻居;**评价**:它褒什么、贬什么、为什么正当化;**体验**:从里面看它是什么样;**实践**:人们在生活里怎么用它;**制度与历史**:哪些社会安排让它稳定下来。
 
-When appropriate, ask:
+猜词是解压,命名是再压;好的新名得决定保哪几束、舍哪几束。
 
-```markdown
-如果接受这个定义，我们已经默认了什么？
-```
+**义素对比表**(近邻分茎的利器):把一组近义词排成行,把候选的区别特征排成列,逐格填"是 / 否 / 不定"。
 
-## 13. Substitute types
+| | 可以自愿选择 | 必带负价 | 指向某个人 |
+|---|---|---|---|
+| 孤独 | 是 | 否 | 否 |
+| 寂寞 | 否 | 是 | 否 |
+| 思念 | 否 | 不定 | 是 |
 
-### Rigorous substitute
+表填完,两个词只差一格的,那一格就是它们的种差;差不出一格的,说明列选得不对——回去找新的区别特征。表是主持人和玩家的草稿,别当成标准答案亮出来。
 
-Best for precision:
+## 十二 框架角色清点(四代)
 
-```markdown
-一种……，其特征是……，并区别于……
-```
+动词、事件词、关系词背后都站着一个**场景框架**:一组必须在场的角色。清点三问:
 
-### Functional substitute
+1. **谁**:施事者、受事者、受益者、见证者各是谁?
+2. **什么**:交换了什么物、信息、义务?用了什么工具或媒介?
+3. **前后**:事情发生前需要什么前提?发生后什么变了?
 
-Best for explaining what the target does:
+逐个拿掉角色测试:拿掉就散的是承重角色,拿掉仍在的是可选角色。近邻往往就差在一个角色上:借与给差在"归还的预期",租与借差在"对价",偷与借差在"出借方的同意"。快局版见 quick-games.md 第 9 节"框架补位"。
 
-```markdown
-把……转化为……，使……能够……的方式。
-```
+## 十三 言语行为:说即是做(四代)
 
-### Phenomenological substitute
+承诺、道歉、命令、感谢、原谅、宣判、命名——这类词指的不是一个东西,而是一种**用话做成的事**。解释它们最常见的懒法是"说一句××",那只是外壳。问一句:"说了这句话之后,世界上什么东西变了?"
 
-Best for felt experience:
+成立的**恰当条件**,通俗地清点四样:
 
-```markdown
-当……时，主体经验到的一种……感，使注意力……
-```
+- **谁有资格说**:命令要有权威,原谅只能由受害的一方给。
+- **说者心里得有什么**:道歉要承认自己有错,承诺要真打算去做(否则是有缺陷的承诺——仍是承诺,却是虚的)。
+- **说出来之后谁承担了什么**:承诺让说者背上义务;道歉让说者承担责任,也让对方获得原谅与否的选择权。
+- **对方要不要接收**:感谢不需要对方同意,双方的约定需要。
 
-### Operational substitute
+这四样里,"说出来之后改变了什么"通常就是本质,其余三样是边界条件。
 
-Best for testable concepts:
+## 十四 概念隐喻:语言里的暗桩(四代)
 
-```markdown
-在……条件下，若……，则可判定为……
-```
+抽象概念常常借一个具体领域来思考:时间借金钱(花、省、浪费),争论借战争(攻击、防守、阵地),理解借视觉(看清、模糊、洞见)。这些不是零散的修辞,而是**系统性的隐喻**,会悄悄带进推论。
 
-### Critical substitute
+诊断三步:
 
-Best for contested or ideological terms:
+1. **挖**:玩家的解释里有没有借来的画面?
+2. **问推论**:这个画面带进了什么本不属于这个概念的推论?("浪费时间"暗示时间像钱一样有去处;可它去了哪?)
+3. **换一条隐喻试试**:换了画面,哪些推论跟着变了?不随画面变的那部分,才更接近概念本身。
 
-```markdown
-一种把……正当化/问题化/自然化的命名方式，它使……显得……
-```
+纪律:隐喻无处不在,不必也不可能全部清除;目标是**看见**它在替你推理,而不是禁绝。与陷阱档案"以喻代机制""隐喻当事实"配合使用。
 
-## 14. Reflection prompts
+## 十五 原型与梯度(四代,吸收自二代"原型与边界")
 
-Use one or two at the end of a round:
+人认识一个类,多半靠**原型**(最典型的成员);下定义,却要靠**边界**(最难判的那个案例)。两者不冲突,分工不同:
 
-- “这一局中，哪个特征是真本质，哪个只是常见外观？”
-- “如果不用这个词，你最先舍不得丢掉哪条语义线？”
-- “这个词把世界切成这种形状，有没有别的切法？”
-- “你刚才的替代在哪个地方差点被原词牵着走？”
-- “如果别人用另一个定义，你会不会被带到另一个结论？”
+- **原型帮识别**:猜词与解释开头,可以用典型成员帮对方定位("就是麻雀那种东西")。
+- **边界帮精修**:定义要经得起最难判的案例(企鹅、蝙蝠、鸵鸟)。
+
+成员之间有**典型度梯度**:麻雀比企鹅"更像鸟",但企鹅并不"更少是鸟"——典型度是程度的,成员资格(对有清楚定义的类而言)是是非的。玩家把两者混在一起,就会犯"以典型顶全类"。快局版见 quick-games.md 第 8 节"典型度阶梯";对没有贯穿全员共同线的家族相似概念,走第九节。
+
+## 回望备用问(吸收自二代)
+
+收尾时挑一两句,与 game-protocol.md 4.3 的问法库互补:
+
+- "如果不用这个词,你最先舍不得丢掉哪条语义线?"
+- "你刚才的解释,在哪个地方差点被原词牵着走?"
+- "如果别人用另一个定义,你会不会被带到另一个结论?"
